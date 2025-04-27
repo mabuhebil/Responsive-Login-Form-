@@ -16,7 +16,9 @@ body {
     width: 380px;
     background: #fff;
     border-radius: 5px;
+
 }
+
 
 .wrapper .title {
     line-height: 80px;
@@ -26,6 +28,7 @@ body {
     color: #fff;
     font-size: 25px;
     font-weight: 600;
+    text-align: center;
 }
 
 .wrapper form {
@@ -58,4 +61,41 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.wrapper form .row input[type="submit"] {
+    width: 100%;
+    outline: none;
+    padding-left: 0px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    background-color: #16a085;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.wrapper form .row input[type="password"] {
+    margin-bottom: 8px;
+}
+
+.wrapper form .row .pass a {
+    text-decoration: none;
+    color: #16a085;
+}
+
+.wrapper .text {
+    text-align: center;
+    padding: 15px 0 20px 0;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.wrapper .text a {
+    text-decoration: none;
+    color: #16a085;
+    font-weight: 400;
+    margin-left: 3px;
 }
